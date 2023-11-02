@@ -13,30 +13,30 @@
 #     print('failed')
 # else:
 #     print('succeeded: ' + str(guess))
-    
-# # Notice how if we have two print statements                
+
+# # Notice how if we have two print statements
 # print("Hi")
 # print("there")
 
-# # The output will have each string on a separate line:                
+# # The output will have each string on a separate line:
 # Hi
 # there
-                
+
 # # Now try adding the following:
 # print("Hi",end='')
 # print("there")
 # print("Hi",end='*')
-# print("there")   
-                
+# print("there")
+
 # # The output will place the subsequent string on the same line
 # # and will connect the two prints with the character given by end
 # Hithere
-# Hi*there 
+# Hi*there
 
 # # Practice Problem
 # print("Please think of a number between 0 and 100!")
 # x = 100
-# epsilon = 0.01 
+# epsilon = 0.01
 # numGuesses = 0
 # low = 0.0
 # high = x
